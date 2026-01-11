@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Install phase - nothing to install"
+
+  build:
+    commands:
+      - echo "Test phase started"
+      - test -f hello.txt
+      - echo "hello.txt exists - TEST PASSED"
+
+artifacts:
+  files:
+    - hello.txt
