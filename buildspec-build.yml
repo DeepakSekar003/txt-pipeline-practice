@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "BUILD STAGE"
+      - echo "Preparing hello.txt for deployment"
+
+artifacts:
+  files:
+    - hello.txt
