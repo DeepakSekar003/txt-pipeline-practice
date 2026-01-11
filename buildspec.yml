@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "===== BUILD STAGE ====="
+      - cat hello.txt
+
+  post_build:
+    commands:
+      - echo "===== TEST STAGE ====="
+      - test -f hello.txt
+      - echo "Test passed: hello.txt exists"
+
+artifacts:
+  files:
+    - hello.txt
