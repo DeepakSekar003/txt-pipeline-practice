@@ -7,5 +7,10 @@ phases:
       - cat hello.txt
       - echo "TEST STAGE PASSED"
 
+artifacts:
+  files:
+    - hello.txt
+
+
 
 
