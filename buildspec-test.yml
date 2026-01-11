@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "TEST STAGE"
+      - test -f hello.txt || (echo "ERROR: hello.txt missing!" && exit 1)
+      - echo "TEST PASSED: hello.txt exists"
+
+artifacts:
+  files:
+    - hello.txt
