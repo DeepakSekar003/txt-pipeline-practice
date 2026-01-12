@@ -1,2 +1,0 @@
-Hello AWS CI/CD
-This is my pipeline.
