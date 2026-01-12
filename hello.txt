@@ -1,2 +1,2 @@
 Hello AWS CI/CD
-This is my final pipeline practice.
+This is my new pipeline practice.
