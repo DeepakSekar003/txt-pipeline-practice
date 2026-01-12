@@ -1,2 +1,2 @@
 Hello AWS CI/CD
-This is my first pipeline practice.
+This is my second pipeline practice.
